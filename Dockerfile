@@ -3,7 +3,7 @@ MAINTAINER Philipz <philipzheng@gmail.com>
 
 RUN apt-get update -qq && apt-get install -y mysql-server-5.5 supervisor
 
-ENV NEW_RELIC_LICENSE_KEY cd03cd02d80db78bf4e25f1d15ec98c7c12a5af0
+ENV NEW_RELIC_LICENSE_KEY XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ENV CUSTOM_HOSTNAME mysql.dockware.io
 
 RUN apt-get install -yq ca-certificates wget
